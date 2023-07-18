@@ -1,1 +1,1 @@
-# golden-project
+# Alumini Management System
