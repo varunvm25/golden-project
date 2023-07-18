@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Alumni Management System</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <h1>Alumni Management System</h1>
+  <div class="form-container">
+    <form id="alumniForm">
+      <input type="text" id="nameInput" placeholder="Full Name" required>
+      <input type="text" id="batchInput" placeholder="Batch" required>
+      <input type="email" id="emailInput" placeholder="Email" required>
+      <button type="submit">Add Alumni</button>
+    </form>
+  </div>
+  <table id="alumniTable">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Batch</th>
+        <th>Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Alumni data will be dynamically added here -->
+    </tbody>
+  </table>
+
+  <script src="script.js"></script>
+</body>
+</html>
